@@ -328,4 +328,8 @@ response = requests.post("http://localhost:8000/chat", json={
     "user_id": "test123", 
     "question": "I want to see packages"
 })
+```
 
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
