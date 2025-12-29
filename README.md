@@ -1,4 +1,4 @@
-# Multilingual RAG Chatbot with Rule-based Flow
+### Multilingual RAG Chatbot with Rule-based Flow
 
 A Q&A chatbot API that combines RAG (Retrieval-Augmented Generation) pipeline with rule-based flow triggers, supporting multiple languages (English, Bengali, and Banglish). The system uses local Ollama LLM for privacy and cost-effectiveness.
 
@@ -301,12 +301,12 @@ curl http://localhost:8000/health
 4. **Slow responses**:
    - Use GPU acceleration with Ollama
    - Reduce context window size
-   - Use lighter embedding model
+   - Use a lighter embedding model
 
 ## Scaling Considerations
 
 - **Production**: Use GPU-enabled instances for Ollama
-- **Load Balancing**: Multiple API instances behind load balancer
+- **Load Balancing**: Multiple API instances behind a load balancer
 - **Database**: Replace ChromaDB with production vector database (Pinecone, Weaviate)
 - **Caching**: Implement Redis for frequently asked questions
 
@@ -331,5 +331,6 @@ response = requests.post("http://localhost:8000/chat", json={
 ```
 
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
+
+This project has a custom license. See the [LICENCE](LICENCE) file for details.
